@@ -1,0 +1,212 @@
+.sml-banner#s1 #index-search{
+    width: 220px;
+    height: 115px;
+    background-image: url('../imagenes/quieroCine.jpg') ;
+    background-repeat: no-repeat
+}
+#index-search{
+    padding-top: 55px;
+}
+#main-banner #big-slide{
+    margin: auto;
+}
+
+#main-banner{
+    vertical-align: top;
+}
+
+td.sml-banner{
+    vertical-align: top;
+    text-align: center;
+}
+select{
+    width: 180px;
+    margin-bottom: 5px;
+    height: 20px;
+}
+h1{color: #0066b1;
+   font: bold 25px/28px Verdana,Geneva,sans-serif;}
+
+h4{color: #0066b1;
+   font: bold 15px Verdana,Geneva,sans-serif;
+   padding: 0;
+   margin: 0}
+
+h5{color: #0066b1;
+   font: bold 11px Verdana,Geneva,sans-serif;}
+
+.peldetail{
+    text-decoration:none; 
+    text-align:center; 
+    padding:4px 10px; 
+    border:none; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:13px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#1cc6ff; 
+    background-image: -moz-linear-gradient(top, #1cc6ff 0%, #22a8d4 100%); 
+    background-image: -webkit-linear-gradient(top, #1cc6ff 0%, #22a8d4 100%); 
+    background-image: -o-linear-gradient(top, #1cc6ff 0%, #22a8d4 100%); 
+    background-image: -ms-linear-gradient(top, #1cc6ff 0% ,#22a8d4 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22a8d4', endColorstr='#22a8d4',GradientType=0 ); 
+    background-image: linear-gradient(top, #1cc6ff 0% ,#22a8d4 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+}
+.comprar{
+    text-decoration:none; 
+    text-align:center; 
+    padding:4px 10px; 
+    border:none; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:14px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#ffaa17; 
+    background-image: -moz-linear-gradient(top, #ffaa17 0%, #fccd12 100%); 
+    background-image: -webkit-linear-gradient(top, #ffaa17 0%, #fccd12 100%); 
+    background-image: -o-linear-gradient(top, #ffaa17 0%, #fccd12 100%); 
+    background-image: -ms-linear-gradient(top, #ffaa17 0% ,#fccd12 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fccd12', endColorstr='#fccd12',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffaa17 0% ,#fccd12 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+
+}
+
+
+.boton{
+    text-decoration:none; 
+    text-align:center; 
+    padding:4px 24px; 
+    margin-top: 5px;
+    border:solid 1px #004F72; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:13px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#0423bf; 
+    background-color:#ffff00; 
+    background-image: -moz-linear-gradient(top, #ffff00 0%, #f7ff00 100%); 
+    background-image: -webkit-linear-gradient(top, #ffff00 0%, #f7ff00 100%); 
+    background-image: -o-linear-gradient(top, #ffff00 0%, #f7ff00 100%); 
+    background-image: -ms-linear-gradient(top, #ffff00 0% ,#f7ff00 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7ff00', endColorstr='#f7ff00',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffff00 0% ,#f7ff00 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+
+    text-shadow: 0px 0px 1px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=0); }
+
+.pelicula{
+    background-color: #58ACFA;
+    font-size: 11px;
+}
+.label-detail{width: 133px;
+}
+
+.label-detail#ld-actores{height: 70px;}
+.label-detail#ld-sinop{height: 100px;}
+.titulo{width: 800px;
+        height: 50px}
+
+h1{color: #0066b1;
+   font: bold 25px/28px Verdana,Geneva,sans-serif;}
+
+#btnComprar{
+    text-decoration:none; 
+    text-align:center; 
+    padding:9px 36px; 
+    border:none; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:13px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#ffcc00; 
+    background-image: -moz-linear-gradient(top, #ffcc00 0%, #ff9900 100%); 
+    background-image: -webkit-linear-gradient(top, #ffcc00 0%, #ff9900 100%); 
+    background-image: -o-linear-gradient(top, #ffcc00 0%, #ff9900 100%); 
+    background-image: -ms-linear-gradient(top, #ffcc00 0% ,#ff9900 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9900', endColorstr='#ff9900',GradientType=0 ); 
+    background-image: linear-gradient(top, #ffcc00 0% ,#ff9900 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+
+}
+
+#btnRegresar{
+    text-decoration:none; 
+    text-align:center; 
+    padding:9px 36px; 
+    border:none; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:13px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#e0d8ba; 
+    background-image: -moz-linear-gradient(top, #e0d8ba 0%, #b5ab9b 100%); 
+    background-image: -webkit-linear-gradient(top, #e0d8ba 0%, #b5ab9b 100%); 
+    background-image: -o-linear-gradient(top, #e0d8ba 0%, #b5ab9b 100%); 
+    background-image: -ms-linear-gradient(top, #e0d8ba 0% ,#b5ab9b 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5ab9b', endColorstr='#b5ab9b',GradientType=0 ); 
+    background-image: linear-gradient(top, #e0d8ba 0% ,#b5ab9b 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+
+}
+
+#diaButtons{text-align: right
+}
+#diaButtons .diaButton{
+    text-decoration:none; 
+    text-align:center; 
+    padding:7px 25px; 
+    border:none; 
+
+    font:13px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#ff4248; 
+    background-image: -moz-linear-gradient(top, #ff4248 0%, #ff6666 100%); 
+    background-image: -webkit-linear-gradient(top, #ff4248 0%, #ff6666 100%); 
+    background-image: -o-linear-gradient(top, #ff4248 0%, #ff6666 100%); 
+    background-image: -ms-linear-gradient(top, #ff4248 0% ,#ff6666 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6666', endColorstr='#ff6666',GradientType=0 ); 
+    background-image: linear-gradient(top, #ff4248 0% ,#ff6666 100%);   
+    -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;  
+
+}
+#tdetcine,#tabCine{
+    border: 0;
+    width: 1000px;
+    margin-bottom: 5px;
+}
+#divListaPeliculas table{
+    border: 0;
+    width: 1000px;
+    table-layout: fixed;
+}
+
+
+
+.headlight, .funciones{
+    background-color: #e4e4e4;
+}

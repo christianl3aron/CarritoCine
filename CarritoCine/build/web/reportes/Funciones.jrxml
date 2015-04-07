@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Funciones" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="45d0b6ee-cd98-4e7d-b2b8-5e4e28fc16b0">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["C:\\Users\\CHRISTIAN-LAP\\Documents\\GitHub\\CarritoCine\\web\\reportes\\"]]></defaultValueExpression>
+	</parameter>
+	<field name="cineBean.nombre" class="java.lang.String"/>
+	<field name="lista" class="java.util.List"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="38" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="48b3df97-fc0b-4f6f-a8a6-a04929b8a0ad" x="0" y="0" width="272" height="36"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Funciones Activas]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="8ffa1103-ef1b-4a57-b029-320e26eac9e0" x="496" y="0" width="59" height="36"/>
+				<imageExpression><![CDATA["C:\\Users\\CHRISTIAN-LAP\\Documents\\GitHub\\CarritoCine\\web\\imagenes\\logo_cine.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="12" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="6" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="99" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="aeccc685-47e4-4419-bd74-dc5cce7cd56c" x="0" y="11" width="52" height="20"/>
+				<textElement>
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Cine:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="bb3ea4c8-34e9-49d1-84fd-b37a6ce7f9a2" x="68" y="11" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{cineBean.nombre}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="10177099-d62a-457b-8506-d1e52da15125" x="0" y="43" width="555" height="1"/>
+			</line>
+			<elementGroup>
+				<subreport>
+					<reportElement uuid="77ad3625-c20f-4ec4-8112-83db08b5d205" x="0" y="44" width="555" height="47"/>
+					<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.data.JRBeanCollectionDataSource($F{lista})]]></dataSourceExpression>
+					<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "Funciones_Cine.jasper"]]></subreportExpression>
+				</subreport>
+			</elementGroup>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="19" splitType="Stretch"/>
+	</summary>
+</jasperReport>

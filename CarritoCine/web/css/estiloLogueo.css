@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07-oct-2014, 15:43:28
+    Author     : CHRISTIAN-LAP
+*/
+
+html {
+    min-width:600px;
+    -webkit-text-size-adjust:none;
+}
+
+body#bd-logueo {
+    cursor:auto;
+    background-image:  url("../imagenes/bg_logueo.jpg");
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    background-size: 100% 100%;
+    background-attachment: fixed;  
+}
+
+
+div#sc-login{
+    background-color: white;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-right: 40px;
+
+    width: 330px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#sc-login #hmain{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    color: #555;
+    font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+
+}
+
+label{
+    font-size: 15px; 
+    font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+}
+
+
+input[type="text"],input[type="password"]{
+
+    
+    font-size: 16px;
+    padding: 10px 5px;
+    height: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+    background-color: white;
+    
+    outline: 0;
+    text-align: left;
+    font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+    vertical-align: top;
+    
+    border: 1px solid #A6A6A6;
+    border-radius: 2px 2px 2px 2px;
+    color: #6C6C6C;
+    
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    background: none repeat scroll 0 0 white;
+    border-color: #7DC9E2;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;
+    color: #A6A6A6;
+}
+
+
+input[type="submit"]:focus{
+    background-color:#dfdfdf;
+}
+
+input[type=submit]{
+    width: 315px;
+    height: 45px;
+    font-size: 16px;
+    font-family: Arial, "Liberation Sans", FreeSans, sans-serif;
+
+    -moz-box-shadow:inset 0px 2px 43px 4px #f29c93;
+    -webkit-box-shadow:inset 0px 2px 43px 4px #f29c93;
+    box-shadow:inset 0px 2px 43px 4px #f29c93;
+    background-color:#fe1a00;
+    -webkit-border-top-left-radius:8px;
+    -moz-border-radius-topleft:8px;
+    border-top-left-radius:8px;
+    -webkit-border-top-right-radius:8px;
+    -moz-border-radius-topright:8px;
+    border-top-right-radius:8px;
+    -webkit-border-bottom-right-radius:8px;
+    -moz-border-radius-bottomright:8px;
+    border-bottom-right-radius:8px;
+    -webkit-border-bottom-left-radius:8px;
+    -moz-border-radius-bottomleft:8px;
+    border-bottom-left-radius:8px;
+    text-indent:0px;
+    border:1px solid #d83526;
+    display:inline-block;
+    color:#ffffff;
+    font-weight:bold;
+    font-style:normal;
+    height:45px;
+    line-height:45px;;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #b23e35;
+
+}
+
+
+
+
